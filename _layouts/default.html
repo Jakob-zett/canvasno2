@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> {{ page.title }} </title>
+		<link href="/css/main.css" rel="stylesheet" type="text/css">
+		<link rel="icon" type="image/jpg" href="images/faviconcanvas.png">
+	</head>
+	
+	<body>
+		
+		<iframe src="https://www.youtube.com/embed/uHKbkgC21hI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen >
+        <p> <a href="https://www.youtube.com/embed/uHKbkgC21hI"> </a> </p>
+        </iframe>
+        
+		<!-- <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"ff894cd423ead50e525b96e94","lid":"6443744d6f"}) })</script> -->
+		
+		
+      {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+      {% endif %} 
+	</body>
+</html>
+
